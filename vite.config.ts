@@ -7,7 +7,7 @@ import { stringToSlug } from "./src/utils";
 export default () => {
   const env = loadEnv("dev", process.cwd());
   return defineConfig({
-    base: `/${stringToSlug(env.VITE_TEAM_NAME)}/`,
+    base: `/2025_PIM-NEBS/`,
     plugins: [tailwindcss(), react()],
   });
 };
