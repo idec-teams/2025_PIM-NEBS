@@ -11,7 +11,7 @@ const App = () => {
   const pathMapping = getPathMapping();
   const currentPath =
     location.pathname
-      .split(`${stringToSlug(import.meta.env.VITE_TEAM_NAME)}`)
+      .split(`${import.meta.env.VITE_TEAM_YEAR}_${import.meta.env.VITE_TEAM_NAME}`)
       .pop() || "/";
 
   // Set Page Title
@@ -23,7 +23,7 @@ const App = () => {
   }, [title]);
 
   return (
-    <>
+    <div className="bg-primary">
       {/* Navigation */}
       <Navbar />
 
@@ -60,7 +60,7 @@ const App = () => {
         />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 };
 

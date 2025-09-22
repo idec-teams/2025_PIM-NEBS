@@ -12,10 +12,10 @@ export function Header({ title, banner }: HeaderProps) {
       backdropFilter: 'blur(5px)',
       borderRadius: '0 0 10px 10px'
     }}>
-      <div className="container mx-auto h-100">
-        <div className="h-100 flex items-center justify-center">
+      <div className="container mx-auto h-150">
+        <div className="h-full flex items-center justify-center">
           <div className="">
-            <h1 className="display-4 text-white text-6xl text-center mt-5 mb-2 text-shadow">{title}</h1>
+            <h1 className="text-[#567357] text-8xl text-center mt-5 mb-2 text-shadow">{title}</h1>
             {/* <p className="lead mb-5 text-white text-xl">{lead}</p> */}
           </div>
         </div>

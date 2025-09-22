@@ -7,6 +7,7 @@ export * from "./description.jsx";
 export * from "./report.jsx";
 export * from "./results.jsx";
 export * from "./information.jsx";
+export * from "./model.jsx";
 // Documentation
 export * from "./notebook.jsx";
 export * from "./safety.jsx";
