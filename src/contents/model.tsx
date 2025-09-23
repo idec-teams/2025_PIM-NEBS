@@ -60,7 +60,6 @@ export function Model() {
       if (!nav || !navContainer) return;
 
       const navContainerRect = navContainer.getBoundingClientRect();
-      const navRect = nav.getBoundingClientRect();
       
       // If the top of the nav container is above the viewport
       if (navContainerRect.top <= 0) {
@@ -180,7 +179,7 @@ export function Model() {
       </div>
 
       {/* Right Content */}
-      <div className="md:w-3/4 text-2xl">
+      <div className="md:w-3/4 text-2xl/10">
         <div className="bg-white p-6 rounded-lg shadow">
           {/* Introduction Section */}
           <div ref={sectionRefs.introduction} className="mb-8">

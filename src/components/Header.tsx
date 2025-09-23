@@ -9,8 +9,7 @@ export function Header({ title, banner }: HeaderProps) {
     <header className="py-5 mb-5 bg-cover bg-center" style={{ 
       backgroundImage: banner ? `url(${banner})` : 'none',
       backgroundColor: 'rgba(255, 255, 255, 0.2)',
-      backdropFilter: 'blur(5px)',
-      borderRadius: '0 0 10px 10px'
+      backdropFilter: 'blur(5px)'
     }}>
       <div className="container mx-auto h-150">
         <div className="h-full flex items-center justify-center">

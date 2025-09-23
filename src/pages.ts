@@ -9,7 +9,8 @@ import {
   Results,
   Safety,
   Protocol,
-  Model
+  Model,
+  Experiments
 } from "./contents";
 
 interface Base {
@@ -79,6 +80,14 @@ const Pages: (Page | Folder)[] = [
         banner: "images/model/banner.png",
       },
       {
+        name: "Experiments",
+        title: "Experiments",
+        path: "/experiments",
+        component: Experiments,
+        lead: "",
+        banner: "images/experiments/banner.png",
+      },
+      {
         name: "Results",
         title: "Results",
         path: "/results",
@@ -124,6 +133,7 @@ const Pages: (Page | Folder)[] = [
         path: "/protocol",
         component: Protocol,
         lead: "",
+        banner: "images/protocol/banner.png",
       },
     ],
   }
