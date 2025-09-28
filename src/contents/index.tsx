@@ -8,6 +8,7 @@ export { Report } from "./report";
 export { Results } from "./results";
 export { Safety } from "./safety";
 export { Experiments } from "./experiments";
+export * from "./contribution";
 
 export * from "./information.jsx";
 export * from "./model.jsx";
