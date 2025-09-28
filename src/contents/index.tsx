@@ -10,7 +10,7 @@ export * from "./results-wet-lab";
 export { Safety } from "./safety";
 export { Experiments } from "./experiments";
 export * from "./contribution";
-
+export * from "./design";
 export * from "./information.jsx";
 export * from "./model.jsx";
 // Documentation
