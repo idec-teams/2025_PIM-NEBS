@@ -13,6 +13,7 @@ export * from "./contribution";
 export * from "./design";
 export * from "./information.jsx";
 export * from "./model.jsx";
+export * from "./engineering";
 // Documentation
 export * from "./notebook.jsx";
 export * from "./protocol.jsx";

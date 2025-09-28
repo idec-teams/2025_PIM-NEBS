@@ -14,6 +14,7 @@ import {
   Experiments,
   Contribution,
   Design,
+  Engineering
 } from "./contents";
 
 interface Base {
@@ -91,6 +92,14 @@ const Pages: (Page | Folder)[] = [
         banner: "images/model/banner.png",
       },
       {
+        name: "Engineering",
+        title: "Engineering",
+        path: "/engineering",
+        component: Engineering,
+        lead: "",
+        banner: "images/engineering/banner.webp",
+      },
+      {
         name: "Experiments",
         title: "Experiments",
         path: "/experiments",
@@ -104,6 +113,7 @@ const Pages: (Page | Folder)[] = [
         path: "/results-ai",
         component: ResultsAI,
         lead: "",
+        banner: "images/results-ai/banner.webp",
       },
       {
         name: "Results Wet Lab",
