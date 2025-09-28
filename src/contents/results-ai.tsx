@@ -1,5 +1,5 @@
 
-export function Results() {
+export function ResultsAI() {
   
 
   return (

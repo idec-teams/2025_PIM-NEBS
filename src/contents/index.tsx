@@ -5,7 +5,8 @@ export * from "./attributions.jsx";
 // Project
 export * from "./description.jsx";
 export { Report } from "./report";
-export { Results } from "./results";
+export * from "./results-ai";
+export * from "./results-wet-lab";
 export { Safety } from "./safety";
 export { Experiments } from "./experiments";
 export * from "./contribution";
