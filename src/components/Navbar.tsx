@@ -31,7 +31,7 @@ export function Navbar() {
                           to={subItem.path || ''}
                           className="block px-4 py-2 text-xl text-gray-800 text-decoration-none hover:bg-gray-100"
                         >
-                          {subItem.title}
+                          {subItem.name}
                         </Link>
                       </li>
                     ))}
@@ -42,7 +42,7 @@ export function Navbar() {
                   to={"path" in item ? (item.path||'') : ''}
                   className="inline-block px-4 py-2 text-xl text-white-800 text-decoration-none font-semibold hover:text-white hover:bg-white/20 rounded"
                 >
-                  {"title" in item ? item.title : ''}
+                  {"name" in item ? item.name : ''}
                 </Link>
               )}
             </li>

@@ -50,10 +50,9 @@ const Pages: (Page | Folder)[] = [
     folder: [
       {
         name: "Members",
-        title: "Team Members",
+        title: "Meet the team",
         path: "/team",
         component: Members,
-        hideBanner: true,
         lead: "",
       },
       {
@@ -70,10 +69,11 @@ const Pages: (Page | Folder)[] = [
     folder: [
       {
         name: "Description",
-        title: "Project Description",
+        title: "Description",
         path: "/description",
         component: Description,
         lead: "",
+        banner: "images/description/banner.webp",
       },
       {
         name: "Design",
@@ -163,6 +163,7 @@ const Pages: (Page | Folder)[] = [
         path: "/safety",
         component: Safety,
         lead: "",
+        banner: "images/safety/banner.webp",
       },
       {
         name: "Protocol",
