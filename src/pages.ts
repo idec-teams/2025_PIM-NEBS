@@ -156,6 +156,7 @@ const Pages: (Page | Folder)[] = [
         path: "/notebook",
         component: Notebook,
         lead: "",
+        hideBanner: true
       },
       {
         name: "Safety",
