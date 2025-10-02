@@ -136,6 +136,7 @@ const Pages: (Page | Folder)[] = [
         path: "/information",
         component: Information,
         lead: "",
+        hideBanner: true
       },
       {
         name: "Contribution",

@@ -23,7 +23,7 @@ const App = () => {
   }, [title]);
 
   return (
-    <div className="bg-primary">
+    <div className="bg-primary flex flex-col min-h-screen">
       {/* Navigation */}
       <Navbar />
 
@@ -37,7 +37,7 @@ const App = () => {
               element={
                 <>
                   {!hideBanner && <Header title={title || ""} lead={lead || ""} banner={banner || ""} /> }
-                  <div>
+                  <div className="flex-1 flex flex-col">
                     <Component />
                   </div>
                 </>
