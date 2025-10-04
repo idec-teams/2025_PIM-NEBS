@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -61,7 +61,7 @@ export function Home() {
     // 清理函数
     return () => {
       window.removeEventListener('scroll', handleScroll);
-      textRefs.current.forEach(el => {
+      textRefs.current.forEach(() => {
         ScrollTrigger.killAll();
       });
       if (timeoutId) clearTimeout(timeoutId);
