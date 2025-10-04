@@ -58,7 +58,7 @@ export function Members() {
               <div className="absolute inset-0 transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 bg-white border-4 border-[#E89394] p-4 flex flex-col justify-center rounded-2xl shadow-lg shadow-[#E89394]/50">
                 <h2 className="text-xl font-bold text-[#567357] mb-2">Nayifan Luo</h2>
                 <p className="text-base text-gray-700 overflow-y-auto">
-                  I'm Nayifan Luo. I assist our program for IDEC in order to get well completed. It is my greatest honor to take a part in this team to foster a brighter society with the contributions of our own efforts. My personal interest is to study in different sciences, especially getting to dive deep into the fields of Biology and Chemistry. I'm looking forward to make friends that share similar interests with me and to also foster my skills and resilience in future journeys.
+                  I'm Nayifan Luo. I assist our program for iDEC in order to get well completed. It is my greatest honor to take a part in this team to foster a brighter society with the contributions of our own efforts. My personal interest is to study in different sciences, especially getting to dive deep into the fields of Biology and Chemistry. I'm looking forward to make friends that share similar interests with me and to also foster my skills and resilience in future journeys.
                 </p>
               </div>
             </div>
@@ -77,6 +77,24 @@ export function Members() {
                 <h2 className="text-xl font-bold text-[#567357] mb-2">Zicong Chen</h2>
                 <p className="text-base text-gray-700 overflow-y-auto">
                   I'm Max Chen, overseeing coordination and event planning, including wiki development and design. Participating in iDEC has expanded my knowledge in biology and chemistry, strengthened my practical abilities, and provided valuable experience in team coordination and leadership.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="member">
+            <div className="relative w-100 h-100 group">
+              <div className="absolute inset-0 transition-opacity duration-300 ease-in-out opacity-100 group-hover:opacity-0">
+                <img 
+                  src="images/members/7.webp" 
+                  alt="Xiaoyu Zhang" 
+                  className="w-full h-full object-cover border-4 border-[#E89394] rounded-2xl shadow-lg shadow-[#E89394]/50"
+                />
+              </div>
+              <div className="absolute inset-0 transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 bg-white border-4 border-[#E89394] p-4 flex flex-col justify-center rounded-2xl shadow-lg shadow-[#E89394]/50">
+                <h2 className="text-xl font-bold text-[#567357] mb-2">Xiaoyu Zhang</h2>
+                <p className="text-base text-gray-700 overflow-y-auto">
+                  I'm Evelyn Zhang. Motivated by a strong interest in biology, I currently supervise guidance to teammates during experiments. I ensure our iDEC project establishes a robust foundation to facilitate progress in subsequent phases.
                 </p>
               </div>
             </div>
@@ -117,29 +135,13 @@ export function Members() {
               <div className="absolute inset-0 transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 bg-white border-4 border-[#E89394] p-4 flex flex-col justify-center rounded-2xl shadow-lg shadow-[#E89394]/50">
                 <h2 className="text-xl font-bold text-[#567357] mb-2">Yueyang Du</h2>
                 <p className="text-base text-gray-700 overflow-y-auto">
-                  I'm Yueyang Du. Joining this program has been a profoundly meaningful experience, allowing me to better understand the essential role of teamwork and responsibility in real-world projects. IDEC journey has supported both my personal and professional growth, inspiring me to tackle future challenges with increased confidence and resolve.
+                  I'm Yueyang Du. Joining this program has been a profoundly meaningful experience, allowing me to better understand the essential role of teamwork and responsibility in real-world projects. iDEC journey has supported both my personal and professional growth, inspiring me to tackle future challenges with increased confidence and resolve.
                 </p>
               </div>
             </div>
           </div>
           
-          <div className="member">
-            <div className="relative w-100 h-100 group">
-              <div className="absolute inset-0 transition-opacity duration-300 ease-in-out opacity-100 group-hover:opacity-0">
-                <img 
-                  src="images/members/7.webp" 
-                  alt="Xiaoyu Zhang" 
-                  className="w-full h-full object-cover border-4 border-[#E89394] rounded-2xl shadow-lg shadow-[#E89394]/50"
-                />
-              </div>
-              <div className="absolute inset-0 transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 bg-white border-4 border-[#E89394] p-4 flex flex-col justify-center rounded-2xl shadow-lg shadow-[#E89394]/50">
-                <h2 className="text-xl font-bold text-[#567357] mb-2">Xiaoyu Zhang</h2>
-                <p className="text-base text-gray-700 overflow-y-auto">
-                  I'm Evelyn Zhang. Motivated by a strong interest in biology, I currently supervise guidance to teammates during experiments. I ensure our iDEC project establishes a robust foundation to facilitate progress in subsequent phases.
-                </p>
-              </div>
-            </div>
-          </div>
+          
           
           <div className="member">
             <div className="relative w-100 h-100 group">
@@ -279,7 +281,7 @@ export function Members() {
               <div className="absolute inset-0 transition-opacity duration-300 ease-in-out opacity-0 group-hover:opacity-100 bg-white border-4 border-[#E89394] p-4 flex flex-col justify-center rounded-2xl shadow-lg shadow-[#E89394]/50">
                 <h2 className="text-xl font-bold text-[#567357] mb-2">Lezi Xue</h2>
                 <p className="text-base text-gray-700 overflow-y-auto">
-                  Hello, I'm Xue Lezi. I have a strong interest in science—especially subjects like math, chemistry, and computer science. Through taking part in IDEC, I hope to gain a deeper understanding of directed evolution, strengthen my research and hands-on skills, and learn to collaborate more effectively in a team. In my free time, I enjoy reading and spending time outdoors in nature.
+                  Hello, I'm Xue Lezi. I have a strong interest in science—especially subjects like math, chemistry, and computer science. Through taking part in iDEC, I hope to gain a deeper understanding of directed evolution, strengthen my research and hands-on skills, and learn to collaborate more effectively in a team. In my free time, I enjoy reading and spending time outdoors in nature.
                 </p>
               </div>
             </div>

@@ -4,8 +4,9 @@ import Pages from "../pages.js";
 
 export function Navbar() {
   return (
-    <nav className="text-white bg-[#567357]">
-      <div className="px-8 py-10 flex items-center justify-between">
+    <>
+    <nav className="text-white bg-[#567357] fixed w-full z-10">
+      <div className="px-8 py-4 flex items-center justify-between">
         <div className="flex items-center justify-center">
         <img src="images/logo.png" className="w-12 me-4" alt="logo" />
         <h1 className="text-4xl font-bold">{teamName}</h1>
@@ -50,5 +51,7 @@ export function Navbar() {
         </ul>
       </div>
     </nav>
+    <div className="h-[80px]"></div>
+    </>
   );
 }

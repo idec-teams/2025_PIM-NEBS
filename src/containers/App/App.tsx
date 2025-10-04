@@ -1,7 +1,7 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import { getPathMapping } from "../../utils";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Navbar } from "../../components/Navbar";
 import { Header } from "../../components/Header";
 import { NotFound } from "../../components/NotFound";
@@ -18,9 +18,24 @@ const App = () => {
   const title =
     currentPath in pathMapping ? pathMapping[currentPath].title : "Not Found";
 
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
   useEffect(() => {
     document.title = `${title || ""} | ${import.meta.env.VITE_TEAM_NAME} - ${import.meta.env.VITE_TEAM_YEAR}`;
   }, [title]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 300);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <div className="bg-primary flex flex-col min-h-screen">
@@ -60,6 +75,15 @@ const App = () => {
         />
       </Routes>
       <Footer />
+      {showScrollTop && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-8 right-8 z-50 p-2 "
+          aria-label="Scroll to top"
+        >
+          <img src="./images/top.png" alt="Top" className="w-16 h-16 cursor-pointer hover:scale-110 transition-all " />
+        </button>
+      )}
     </div>
   );
 };
