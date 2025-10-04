@@ -129,6 +129,7 @@ const Pages: (Page | Folder)[] = [
         path: "/report",
         component: Report,
         lead: "",
+        hideBanner: true
       },
       {
         name: "Supplementary information",

@@ -3,8 +3,10 @@ export function Report() {
   
 
   return (
-    <>
-      <p>Report</p>
-    </>
+    <iframe 
+        src="pdf/report.pdf" 
+        className="w-full flex-1 border-0"
+        title="Report"
+      />
   );
 }
